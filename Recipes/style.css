@@ -1,5 +1,4 @@
 .soup, .pasta, .chili{
-text-align: center;
 font-size: 24px;
 color: black;
 }
@@ -10,6 +9,25 @@ font-size: 48px;
 font: bold;
 background-color: aqua;
 }
-#chilipic, #souppic, #pastapic{
-text-align: center;
+
+
+
+
+.Container{
+ position: relative;
+ text-align: center;
+ color: white;   
+}
+
+.soup{
+position: absolute;
+top: 50%; left: 48%;   
+}
+.chili{
+position: absolute;
+top: 30%; left: 48%;   
+}
+.pasta{
+position: absolute;
+top: 10%; left: 48%;    
 }
