@@ -1,8 +1,15 @@
-#soup, #pasta, #Chili{
+.soup, .pasta, .chili{
+text-align: center;
+font-size: 24px;
+color: black;
+}
+
+#or{
 text-align: center;
 font-size: 48px;
-color: black;
-
-
-
+font: bold;
+background-color: aqua;
+}
+#chilipic, #souppic, #pastapic{
+text-align: center;
 }
